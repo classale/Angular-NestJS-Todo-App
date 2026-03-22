@@ -1,6 +1,6 @@
 # Angular + NestJS Todo App
 
-### This project was done to try and discover the angular and nestJS frameworks. The code is very messy and definitely not meant for production, it was still a fun project.
+### This project was done to try and discover the angular and nestJS frameworks. The code is very messy and definitely not meant for production, it was still a fun project though.
 
 The `angularnest-be` folder contains the code for the API and `angularnest-fe` contains the code for the front end. Both of these folders contain readmes with instructions on how to start the servers.
 
