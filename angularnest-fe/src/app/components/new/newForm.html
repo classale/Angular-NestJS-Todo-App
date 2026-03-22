@@ -1,0 +1,11 @@
+<form>
+  <label>
+    Name:
+    <input type="text" [(ngModel)]="name" name="name">
+  </label>
+  <label>
+    Description:
+    <input type="text" [(ngModel)]="description" name="description">
+  </label>
+  <button (click)="new()" class="new">Create Todo</button>
+</form>

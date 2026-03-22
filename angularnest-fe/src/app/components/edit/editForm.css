@@ -1,0 +1,43 @@
+:host {
+  background-color: #bbb;
+  border-radius: 32px;
+  width: 75%;
+  height: 75%;
+  display: block;
+
+}
+
+form {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  height: 100%;
+}
+
+button {
+  display: block;
+  width: max-content;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+  background-color: red;
+}
+
+.update {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  background-color: purple;
+}

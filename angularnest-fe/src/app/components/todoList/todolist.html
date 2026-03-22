@@ -1,0 +1,13 @@
+@if(todos.hasValue()) {
+  @if(todos.value().length == 0) {
+    <p>No todos have been created yet</p>
+  } @else {
+    @for (todo of todos.value(); track todo.id) {
+      <todo name="{{todo.name}}" description="todo.description" [done]="todo.done" [id]="todo.id"></todo>
+    }
+  }
+} @else if(todos.isLoading()) {
+  faeqdoihj
+}
+
+<a routerLink="/new" class="newTodo">Create a new todo</a>
